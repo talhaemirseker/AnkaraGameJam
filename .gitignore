@@ -2,7 +2,6 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-.utmp/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -36,9 +35,12 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.sln.docstates
 *.suo
 *.tmp
 *.user
+*.userosscache
+*.rsuser
 *.userprefs
 *.pidb
 *.booproj
@@ -47,6 +49,17 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -60,7 +73,6 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
@@ -72,3 +84,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# JetBrains Rider
+*.sln.iml
